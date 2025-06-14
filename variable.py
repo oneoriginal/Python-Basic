@@ -40,20 +40,102 @@
 
 
 # print('text' or variable or number)
-#  The print() function prints the 'text', number, or value of 
+# The print() function prints the 'text', number, or value of 
 # the variable inside the bracket adds a newline.
 # To print multiple items, use a comma (,)
 # If you use print() with nothing inside, it prints an empty line
 
-name = 'Python'
-age = 28
-height = 188
-print(name)
-print()         #print an empty line
-print(age)
-print(height)
-print('hi')
-print()
-print(5)
-print(5*10)
-print(name, age, height, "hello")
+# name = 'Python'
+# age = 28
+# height = 188
+# print(name)
+# print()         #print an empty line
+# print(age)
+# print(height)
+# print('hi')
+# print()
+# print(5)
+# print(5*10)
+# print(name, age, height, "hello")
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# How to check the data type
+# type() => gets the data type of the variable or value inside the parentheses
+# type(variable)        <= this works, but you can't see the data type
+# print(type(variable))
+# Usually used inside print() to see the data type
+
+# int0 = 1            # saves the integer 1 in the variable int0
+# float0 = 3.14
+# str0 = 'test'
+# type(int0)          # this works, but you can't see the data type
+# print(type(int0))   # prints the data type of int0 using type()
+# print(type(float0))
+# print(type(str0))
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# Type casting
+# str(variable or value)    => converts variable or value to str data type
+# float(variable or value)  => converts variable or value to float data type
+# int(variable or value)    => converts variable or value to int data type
+# Just using them in calculations doesn't change the original variable's data type
+# To change the original variable's data type, save it back into the variable [ ex. a = int(a)]
+
+# var1 = 2
+# var2 = '31'
+# result = var1 + int(var2)   # saves var1 + var2 converted to int in result
+# print(result)
+# print(type(var2))           # prints the data type of var2, which is still str
+# var2 = int(var2)            # converts var2 to int and saves it back in var2
+# print (type(var2))          # prints the new data type of var2
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# input('text' or the value or variable)
+# Displays 'text' or the value of the variable, then waits for keyboard input until Enter is pressed
+# 'text' or variable can be left out
+# variable = input('text' or variable)
+# Usually used in this format, without variable it the input value is not saved
+# input() always saves the value as a str data type
+
+# var1 = 2
+# var2 = input("Insert anything: ")
+# print(var2)
+# print(type(var2))
+
+# var2 = int(var2)
+# print(type(var2))
+
+# sum = var1 + var2
+# print(sum)
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+
+# print("Hello. Enter your name.")
+# var1 = input()
+
+# name = var1
+# print("Welcome", name, ",Enter your age.")
+# var2 = input()
+# age = int(var2)         # Convert to int
+# year = 2025- age
+
+# print("You were born in", year, "! Enter your height.")
+# height = int(input())   # Convert to an int as soon as get the input
+
+# two_m = 200 - height
+# print("There are", two_m, "cm left until 2m.")
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
