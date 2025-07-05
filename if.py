@@ -125,40 +125,40 @@
 # # You can nest if statements
 
 
-# age = int(input("Enter your age: "))
-# is_member = input("Are you a member? (yes or no):")
+age = int(input("Enter your age: "))
+is_member = input("Are you a member? (yes or no):")
 
-# if (age >= 18):
-#     print("Hello, member.")
+if (age >= 18):
+    print("Hello, member.")
 
-#     if(is_member == "yes"):
-#         print("Adult member, welcome!")
-#     else:
-#         print("Adult non-member, please sign up.")
-# else:
-#     if(is_member == "yes"):
-#         print("Teen member, welcome!")
-#     else:
-#         print("Teen non-member, please sign up.")
+    if(is_member == "yes"):
+        print("Adult member, welcome!")
+    else:
+        print("Adult non-member, please sign up.")
+else:
+    if(is_member == "yes"):
+        print("Teen member, welcome!")
+    else:
+        print("Teen non-member, please sign up.")
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-print("Enter two numbers.")
+# print("Enter two numbers.")
 
-a = int(input())
-b = int(input())
+# a = int(input())
+# b = int(input())
 
-print("What calculation do you want to run? (1: Multiply, 2: Divide, 3: Add, 4: Subtract)")
-c = int(input())
+# print("What calculation do you want to run? (1: Multiply, 2: Divide, 3: Add, 4: Subtract)")
+# c = int(input())
 
-if(c == 1):
-    print("Selected multiply", a, "*", b, "=", a*b)
-if(c == 2):
-    print("Selected divide", a, "/", b, "=", a//b)
-if(c == 3):
-    print("Selected add", a, "+", b, "=", a+b)
-if(c == 4):
-    print("Selected subtract", a, "-", b, "=", a-b)
+# if(c == 1):
+#     print("Selected multiply", a, "*", b, "=", a*b)
+# if(c == 2):
+#     print("Selected divide", a, "/", b, "=", a//b)
+# if(c == 3):
+#     print("Selected add", a, "+", b, "=", a+b)
+# if(c == 4):
+#     print("Selected subtract", a, "-", b, "=", a-b)
 
 
