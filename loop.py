@@ -122,7 +122,7 @@
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
-# Sample of using infinite loop, continue, break
+# Example of using infinite loop, continue, break
 
 # while(True) :
 #     print("Please choose a menu option!")
@@ -168,7 +168,7 @@
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
-# while() multiplication table
+# # while() multiplication table
 # x = 1
 # while(x < 10) :                           # This produces the same result as the for command above
 #     y = 1
