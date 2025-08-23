@@ -125,21 +125,21 @@
 # # You can nest if statements
 
 
-age = int(input("Enter your age: "))
-is_member = input("Are you a member? (yes or no):")
+# age = int(input("Enter your age: "))
+# is_member = input("Are you a member? (yes or no):")
 
-if (age >= 18):
-    print("Hello, member.")
+# if (age >= 18):
+#     print("Hello, member.")
 
-    if(is_member == "yes"):
-        print("Adult member, welcome!")
-    else:
-        print("Adult non-member, please sign up.")
-else:
-    if(is_member == "yes"):
-        print("Teen member, welcome!")
-    else:
-        print("Teen non-member, please sign up.")
+#     if(is_member == "yes"):
+#         print("Adult member, welcome!")
+#     else:
+#         print("Adult non-member, please sign up.")
+# else:
+#     if(is_member == "yes"):
+#         print("Teen member, welcome!")
+#     else:
+#         print("Teen non-member, please sign up.")
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
